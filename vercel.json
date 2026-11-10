@@ -1,0 +1,21 @@
+--- /dev/null
++++ b/vercel.json
+@@
++{
++  "builds": [
++    {
++      "src": "package.json",
++      "use": "@vercel/node"
++    }
++  ],
++  "routes": [
++    {
++      "src": "/(.*)",
++      "dest": "/.output/server/index.mjs"
++    },
++    {
++      "src": "/static/(.*)",
++      "dest": "/.output/public/$1"
++    }
++  ]
++}

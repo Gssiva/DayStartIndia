@@ -75,7 +75,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
-    "@lovable.dev/vite-tanstack-config": "2.23.1",
     "@types/aos": "^3.0.8",
     "@types/node": "^22.16.5",
     "@types/nodemailer": "^8.0.2",
